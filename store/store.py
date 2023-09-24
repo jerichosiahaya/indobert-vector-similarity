@@ -6,8 +6,8 @@ from embedding.indobert_em import embedder as id_bert_embedder
 from embedding.openai_em import embedder as openai_embedder
 
 class Store():
-    def __init__(self, languange):
-        if languange == "id":
+    def __init__(self, embedding):
+        if embedding == "indobert":
             self.embedder = id_bert_embedder
         else:
             self.embedder = openai_embedder

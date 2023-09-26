@@ -3,7 +3,7 @@ import transformers
 import numpy as np
 import torch
 
-model_path = "D:\kompas-dev\\ai\models\indobert-base-uncased-ct2"
+model_path = "the model path"
 model_name = "indolem/indobert-base-uncased"
 device = "cpu"
 
